@@ -14,4 +14,3 @@ jtester.properties
 .idea/
 *.iml
 .DS_Store
-/backlego-project/backlego-core/*.classpath
