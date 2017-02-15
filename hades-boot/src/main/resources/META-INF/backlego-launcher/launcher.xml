@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launcher>
+	<initializers>
+		<initializer>
+			<priority>10</priority>
+			<static>false</static>
+			<className>com.backlego.core.launch.log.loader.impl.Log4jLoaderImpl</className>
+			<methodName>load</methodName>
+		</initializer>
+		<initializer>
+			<priority>10</priority>
+			<static>false</static>
+			<className>com.backlego.core.launch.spring.init.SpringInitializer</className>
+			<methodName>run</methodName>
+		</initializer>
+	</initializers>
+</launcher>
