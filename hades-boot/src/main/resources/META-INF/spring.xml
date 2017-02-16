@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LaunchInitializtions>
+	<LaunchInitializtion>
+		<initializeClassName>com.backlego.launch.spring.init.SpringInitializer</initializeClassName>
+		<initializeMethod>run</initializeMethod>
+	</LaunchInitializtion>
+</LaunchInitializtions>
